@@ -1,0 +1,115 @@
+[Diagnostic Guidelines for PAD-UFES-20 Skin Lesion Classification]
+
+You are provided with a clinical skin lesion image. The task is to classify the lesion into one of the following six categories:
+
+- ACK: Actinic Keratosis
+- BCC: Basal Cell Carcinoma
+- MEL: Melanoma
+- NEV: Melanocytic Nevus
+- SCC: Squamous Cell Carcinoma
+- SEK: Seborrheic Keratosis
+
+Please base the diagnosis primarily on visible image evidence, including color, border, symmetry, surface texture, and lesion-specific structures. Do not rely on clinical history unless explicitly provided.
+
+1. ACK: Actinic Keratosis
+
+Actinic Keratosis is usually a rough, scaly, or crusted lesion on sun-damaged skin. It often appears as a pink, red, or light brown plaque with an ill-defined border. The surface may look dry, rough, keratotic, or sandpaper-like. ACK lesions are often flat or slightly raised and may show white scales or adherent crusts.
+
+Key visual clues:
+- Pink, red, reddish-brown, or light brown color.
+- Ill-defined or blurred borders.
+- Rough, dry, scaly, or crusted surface.
+- Keratotic plaque-like appearance.
+- Usually lacks a regular pigment network.
+- May appear asymmetric, but asymmetry alone should not imply melanoma if scaling and keratotic texture dominate.
+
+Diagnostic caution:
+If a lesion shows a pink-red background with rough scaling, crusting, and ill-defined borders, ACK should be strongly considered. Do not over-diagnose melanoma based only on mild asymmetry or color variation when keratotic surface texture is prominent.
+
+2. BCC: Basal Cell Carcinoma
+
+Basal Cell Carcinoma often appears as a pearly, shiny, or translucent papule or plaque. It may have rolled or raised borders, central ulceration, crusting, or bleeding. The lesion is commonly pink, flesh-colored, reddish, or lightly pigmented. Some BCC lesions may show visible vessels, ulceration, or a smooth shiny surface.
+
+Key visual clues:
+- Pearly, shiny, or translucent appearance.
+- Pink, red, flesh-colored, or lightly pigmented color.
+- Rolled, raised, or curled borders.
+- Central ulceration, erosion, crusting, or bleeding.
+- Smooth or shiny surface.
+- May contain arborizing vessels if visible.
+
+Diagnostic caution:
+A pearly or shiny lesion with rolled borders and central ulceration or crusting favors BCC over ACK or SCC. If strong keratotic scaling dominates, ACK or SCC may be more likely.
+
+3. MEL: Melanoma
+
+Melanoma is typically characterized by marked asymmetry, irregular or blurred borders, and multiple colors. It may contain black, dark brown, light brown, gray, red, pink, white, or blue areas. The internal structure is often chaotic, with irregular pigmentation, atypical dots or globules, structureless regions, or regression-like areas.
+
+Key visual clues:
+- Strong asymmetry in shape, color, or internal structure.
+- Irregular, notched, blurred, or poorly defined borders.
+- Multiple colors, especially dark brown, black, gray, blue, red, pink, or white.
+- Chaotic or disorganized internal pattern.
+- Atypical dots, globules, streaks, or structureless areas.
+- Irregular pigment network if visible.
+
+Diagnostic caution:
+Melanoma should be favored when asymmetry, irregular borders, and color variegation occur together with a chaotic internal pattern. However, rough scaling or keratotic crusting alone is not sufficient for melanoma and may indicate ACK or SCC.
+
+4. NEV: Melanocytic Nevus
+
+Melanocytic Nevus is usually a benign pigmented lesion with relatively symmetric shape and regular internal structure. It often appears brown or dark brown, with smooth and well-defined borders. Pigmentation is usually homogeneous or shows a regular pigment network.
+
+Key visual clues:
+- Symmetric or nearly symmetric shape.
+- Smooth, regular, and well-defined borders.
+- Uniform brown or dark brown pigmentation.
+- Regular pigment network or evenly distributed pigment.
+- Smooth surface without ulceration, crusting, or strong scaling.
+- Lack of chaotic structures.
+
+Diagnostic caution:
+NEV is favored when the lesion is symmetric, uniformly pigmented, and structurally regular. Marked asymmetry, multiple colors, irregular borders, or chaotic structures should raise suspicion for MEL.
+
+5. SCC: Squamous Cell Carcinoma
+
+Squamous Cell Carcinoma often appears as a red, pink, or flesh-colored lesion with a scaly, crusted, keratotic, or ulcerated surface. It may be raised, nodular, plaque-like, or cauliflower-like. Compared with ACK, SCC may appear thicker, more invasive, more ulcerated, or more mass-like.
+
+Key visual clues:
+- Pink, red, reddish-brown, or flesh-colored lesion.
+- Thick scale, crust, keratin mass, or hyperkeratotic surface.
+- Ulceration, erosion, or bleeding may be present.
+- Raised, nodular, plaque-like, or cauliflower-like morphology.
+- Irregular or invasive-looking borders.
+- More prominent thickness or mass effect than ACK.
+
+Diagnostic caution:
+SCC should be considered when a keratotic or crusted lesion appears thick, raised, ulcerated, or invasive. Thin, flat, rough-scaled plaques with ill-defined borders are more consistent with ACK.
+
+6. SEK: Seborrheic Keratosis
+
+Seborrheic Keratosis is a benign lesion that often has a waxy, greasy, verrucous, or “stuck-on” appearance. It may be yellow, tan, brown, dark brown, or black. The surface is commonly rough, warty, or cerebriform. Milia-like cysts or comedo-like openings may be visible.
+
+Key visual clues:
+- Waxy, greasy, verrucous, or stuck-on appearance.
+- Yellow, tan, brown, dark brown, or black coloration.
+- Rough, warty, papillomatous, or cerebriform surface.
+- Sharply demarcated borders.
+- Milia-like cysts or comedo-like openings if visible.
+- May look pigmented but often has a superficial pasted-on morphology.
+
+Diagnostic caution:
+SEK can mimic melanoma when dark or irregularly pigmented. However, a waxy stuck-on surface, sharply demarcated border, and milia-like cysts favor SEK.
+
+[Decision Principles]
+
+When making the final diagnosis, compare the visible evidence against the key diagnostic patterns above.
+
+- If the lesion is rough, scaly, pink-red or brown, and ill-defined, consider ACK.
+- If the lesion is pearly or shiny with rolled borders, ulceration, or crusting, consider BCC.
+- If the lesion shows strong asymmetry, irregular borders, multiple colors, and chaotic structures, consider MEL.
+- If the lesion is symmetric, uniformly brown, and structurally regular, consider NEV.
+- If the lesion is thick, raised, ulcerated, crusted, or hyperkeratotic with invasive morphology, consider SCC.
+- If the lesion has a waxy, verrucous, stuck-on appearance, consider SEK.
+
+Do not rely on a single feature alone. The final diagnosis should be based on the dominant and most reliable visual evidence.
