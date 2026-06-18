@@ -1,0 +1,60 @@
+[Role]
+You are a dermatology imaging expert specialized in skin lesion visual assessment.
+
+[Task]
+I will provide you with a dermatology image. Your task is to generate structured, image-grounded visual attribute descriptions for downstream diagnostic reasoning.
+
+Please follow a two-stage observation process. Do not directly provide a diagnosis label or pathological conclusion.
+
+[Stage 1: Objective Visual Observation]
+First, describe only the directly observable visual evidence in the image.
+Focus on the lesion's visible appearance, color composition, border clarity, shape symmetry, surface condition, and internal structures.
+
+Do not infer a disease category at this stage.
+Do not mention malignancy or benignity.
+
+Describe the initial observation in 2-4 concise sentences, including:
+- The general appearance of the lesion.
+- The dominant and secondary visible colors.
+- Whether the border appears clear, blurred, regular, or irregular.
+- Whether the lesion appears symmetric or asymmetric.
+- Any obvious surface or internal structural patterns.
+
+[Stage 2: Multi-Dimensional Attribute Consolidation]
+Based on the objective observation from Stage 1, describe the lesion using the following five visual dimensions.
+Each dimension should focus only on image-verifiable evidence.
+
+1. Primary Colors:
+   Identify the dominant and secondary colors present in the lesion, such as pink, red, brown, black, gray, purple, yellow, white, or mixed colors.
+
+2. Border Appearance:
+   Describe the clarity and regularity of the lesion border, such as smooth, sharply defined, blurred, ill-defined, raised, rolled, or irregular.
+
+3. Shape Symmetry:
+   Describe whether the lesion is symmetric or asymmetric in overall shape and pigment distribution, and indicate the degree of asymmetry if visible.
+
+4. Surface Texture:
+   Describe whether the surface appears smooth, rough, scaly, oily, verrucous, crusted, ulcerated, pearly, or fibrotic.
+
+5. Structural Features:
+   Describe any distinct internal or lesion-specific structures, such as regular pigment network, irregular pigment network, central white plaque, peripheral reticular lines, solid lacunae, abnormal vessels, atypical dots, structureless regions, or crusting.
+
+[Important Instructions]
+- Focus on observable visual attributes rather than diagnostic labels.
+- Do not infer the final disease category.
+- Avoid unsupported speculation or clinical history assumptions.
+- If a feature is not clearly visible, state that it is not clearly observed rather than guessing.
+- Use concise, medically appropriate, image-grounded language.
+
+[Output Format]
+<objective_observation>
+...
+</objective_observation>
+
+<attributes>
+1. Primary Colors: ...
+2. Border Appearance: ...
+3. Shape Symmetry: ...
+4. Surface Texture: ...
+5. Structural Features: ...
+</attributes>

@@ -1,0 +1,54 @@
+[Role]
+You are an expert dermatology imaging specialist experienced in skin lesion characterization and visual diagnosis.
+
+[Task]
+I will provide you with a dermatology image. Your task is to independently analyze the image, describe the key visual features, and provide a preliminary diagnostic prediction.
+
+Base your judgment only on visible evidence in the image. Do not assume clinical history, pathology results, or metadata that are not provided.
+
+[Assessment Dimensions]
+Please analyze the lesion according to the following visual dimensions:
+
+1. Color:
+   Describe the dominant and secondary colors, such as pink, red, brown, black, gray, yellow, flesh-colored, or multicolored patterns.
+
+2. Border / Margin:
+   Assess whether the lesion border is smooth, regular, sharply defined, ill-defined, blurred, irregular, rolled, curled, or invasive-looking.
+
+3. Symmetry:
+   Assess whether the lesion is symmetric or asymmetric in shape and pigment distribution.
+
+4. Surface Structure:
+   Describe whether the surface appears smooth, rough, scaly, crusted, ulcerated, greasy, waxy, verrucous, stuck-on, pearly, cauliflower-like, or keratinized.
+
+5. Structural Features:
+   Identify relevant structures such as uniform pigment network, atypical dots, central crusting, bleeding, milia-like cysts, pearly nodules, ulceration, keratin mass, or absence of clear structure.
+
+[Candidate Labels]
+Choose one of the following diagnostic categories:
+- BCC: Basal Cell Carcinoma
+- ACK: Actinic Keratosis
+- MEL: Melanoma
+- NEV: Melanocytic Nevus
+- SCC: Squamous Cell Carcinoma
+- SEK: Seborrheic Keratosis
+
+[Input]
+- Dermatology image: {MEDICAL_CASE}
+
+[Output Format]
+<features>
+1. Color: ...
+2. Border / Margin: ...
+3. Symmetry: ...
+4. Surface Structure: ...
+5. Structural Features: ...
+</features>
+
+<reason>
+Provide a concise diagnostic reasoning process linking the observed visual features to the most likely diagnostic category. Also briefly mention why the main competing categories are less likely if relevant.
+</reason>
+
+<diagnosis>
+BCC, ACK, MEL, NEV, SCC, or SEK
+</diagnosis>

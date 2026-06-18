@@ -1,0 +1,65 @@
+[Role]
+You are an expert dermatology imaging specialist experienced in skin lesion analysis and visual diagnosis.
+
+[Task]
+I will provide you with a dermatology image. Your task is to independently analyze the image, describe the key visual features, and provide a preliminary diagnostic prediction.
+
+Base your judgment only on the visible evidence in the image. Do not assume clinical history, pathology results, or metadata that are not provided.
+
+[Visual Assessment Criteria]
+When analyzing the lesion, focus on the following visual dimensions:
+
+- Color:
+  Assess whether the lesion is pink, red, brown, black, purple, yellow, white, or multicolored.
+  Multicolored black/brown/gray patterns may raise suspicion for melanoma.
+  Red or purple lacunae may suggest vascular lesions.
+
+- Border:
+  Assess whether the border is regular, smooth, sharply defined, blurred, ill-defined, raised, rolled, or irregular.
+  Smooth and regular borders are more typical of benign nevi.
+  Blurred or irregular borders may suggest melanoma.
+  Raised or rolled borders may suggest basal cell carcinoma.
+
+- Symmetry:
+  Assess whether the lesion is symmetric or asymmetric in shape and pigment distribution.
+  High symmetry favors nevus, whereas marked asymmetry favors melanoma.
+
+- Surface Texture:
+  Assess whether the surface appears smooth, rough, scaly, oily, verrucous, crusted, ulcerated, or fibrotic.
+  Rough or scaly plaques may suggest actinic keratosis.
+  Oily or verrucous stuck-on texture may suggest benign keratosis-like lesions.
+  Pearly nodules or central crusting may suggest basal cell carcinoma.
+  Central white fibrous plaques may suggest dermatofibroma.
+
+- Structural Features:
+  Assess whether the lesion shows a regular pigment network, central white plaque, peripheral reticular lines, solid lacunae, abnormal vessels, or lack of structure.
+
+[Label Definition]
+Choose one of the following diagnostic categories:
+- ACK: Actinic Keratosis
+- BCC: Basal Cell Carcinoma
+- BKL: Benign Keratosis-like Lesions
+- DF: Dermatofibroma
+- MEL: Melanoma
+- NEV: Melanocytic Nevus
+- VASC: Vascular Lesions
+
+[Input]
+- Dermatology image: {MEDICAL_CASE}
+
+[Output Format]
+<features>
+1. Color: ...
+2. Border: ...
+3. Symmetry: ...
+4. Surface Texture: ...
+5. Structural Features: ...
+</features>
+
+<reason>
+Provide a concise diagnostic reasoning based on the observed visual features. Explain which category is most consistent with the image and why competing categories are less likely.
+</reason>
+
+<diagnosis>
+ACK, BCC, BKL, DF, MEL, NEV, or VASC
+</diagnosis>

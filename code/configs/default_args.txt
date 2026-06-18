@@ -1,0 +1,8 @@
+# Example arguments
+--num_classes 6
+--text_encoder /path/to/Bio_ClinicalBERT
+--medmamba_checkpoint /path/to/PAD-UFES-20Net.pth
+--biomedclip_dir checkpoints/biomedclip
+--epochs 40
+--batch_size 16
+--lr 1e-4

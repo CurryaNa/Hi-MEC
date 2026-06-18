@@ -1,0 +1,32 @@
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Experiment outputs and checkpoints
+runs/
+outputs/
+logs/
+wandb/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local datasets should be downloaded/prepared separately for anonymous release
+dataset/
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/

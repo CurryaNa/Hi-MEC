@@ -1,0 +1,33 @@
+Dermatology Diagnostic Criteria
+ACK — Actinic Keratosis
+Pink, red, or brown color
+Ill-defined borders
+Rough or scaly plaque-like surface
+BCC — Basal Cell Carcinoma
+Pearly or translucent nodules
+Raised or rolled borders
+Central crusting or ulceration
+Abnormal vessels
+BKL — Benign Keratosis-like Lesions
+Yellow, brown, or black color
+Oily, verrucous, or stuck-on surface
+Adhering texture
+Millet-like cysts
+DF — Dermatofibroma
+Peripheral reticular lines
+Central white fibrous plaque
+Firm fibrotic-looking structure
+MEL — Melanoma
+Multicolored appearance, such as black, brown, gray, or mixed colors
+Asymmetry
+Blurred or irregular borders
+Lack of obvious regular structure
+NEV — Melanocytic Nevus
+Brown or black color
+Regular and smooth borders
+High symmetry
+Uniform pigment distribution
+VASC — Vascular Lesions
+Red or purple color
+Solid lacunae
+Red vascular masses

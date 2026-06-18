@@ -1,0 +1,18 @@
+Breast Ultrasound Diagnostic Criteria
+0 — Malignant
+Irregular shape
+Non-parallel orientation, also described as taller-than-wide
+Not circumscribed margins, including indistinct, angular, microlobulated, or spiculated margins
+Possible posterior shadowing
+Possible markedly hypoechoic echogenicity or calcifications
+1 — Benign / Normal
+If a lesion is present:
+Oval or round shape
+Parallel orientation, also described as wider-than-tall
+Circumscribed or smooth margins
+Anechoic or hypoechoic echogenicity
+Posterior enhancement or no posterior acoustic change
+If no lesion is present:
+Normal fibroglandular tissue
+No discrete mass
+No architectural distortion or focal abnormality
