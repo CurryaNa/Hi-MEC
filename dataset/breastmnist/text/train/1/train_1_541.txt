@@ -1,0 +1,5 @@
+1. Shape: The lesion is irregular in shape.
+2. Margin: The margins are indistinct.
+3. Echogenicity: The lesion has heterogeneous echogenicity, with hypoechoic components and cystic spaces.
+4. Orientation: The lesion has a parallel orientation.
+5. Posterior acoustic features: No significant posterior acoustic features are identified.

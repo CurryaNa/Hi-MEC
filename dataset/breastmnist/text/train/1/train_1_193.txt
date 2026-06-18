@@ -1,0 +1,5 @@
+1. Shape: The lesions are oval in shape.
+2. Margin: The lesions have circumscribed margins.
+3. Echogenicity: The lesions are anechoic.
+4. Orientation: The lesions are oriented parallel to the skin.
+5. Posterior acoustic features: The lesions demonstrate posterior acoustic enhancement.

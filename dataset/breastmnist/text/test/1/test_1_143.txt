@@ -1,0 +1,5 @@
+1. Shape: Round.
+2. Margin: Well-defined.
+3. Echogenicity: Anechoic.
+4. Orientation: Parallel.
+5. Posterior acoustic features: Posterior acoustic enhancement.

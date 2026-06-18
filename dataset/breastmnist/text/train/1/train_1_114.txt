@@ -1,0 +1,5 @@
+1. Shape: The lesion has an irregular shape, formed by a cluster of cysts.
+2. Margin: The lesion has overall indistinct margins, though individual cystic components are circumscribed.
+3. Echogenicity: The lesion has heterogeneous echogenicity, with multiple anechoic cysts and intervening echogenic solid-appearing tissue.
+4. Orientation: The lesion has a parallel orientation.
+5. Posterior acoustic features: The lesion exhibits posterior acoustic enhancement.

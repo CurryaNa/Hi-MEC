@@ -1,0 +1,5 @@
+1. Shape:The lesion is oval in shape.
+2. Margin:The lesion has well-defined margins.
+3. Echogenicity:The lesion is hypoechoic with a preserved central echogenic fatty hilum.
+4. Orientation:The lesion is oriented parallel to the skin surface.
+5. Posterior acoustic features:No posterior acoustic shadowing or enhancement is identified.

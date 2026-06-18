@@ -1,0 +1,5 @@
+1. Shape: The lesion has an irregular, tubular shape.
+2. Margin: The lesion has indistinct margins.
+3. Echogenicity: The lesion is hypoechoic with low-level internal echoes.
+4. Orientation: The lesion is oriented parallel to the skin.
+5. Posterior acoustic features: There are no significant posterior acoustic features.

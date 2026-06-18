@@ -1,0 +1,5 @@
+1. Shape: The lesion has an irregular shape, representing a cluster of smaller rounded components.
+2. Margin: The lesion has a circumscribed and macrolobulated margin.
+3. Echogenicity: The lesion is anechoic.
+4. Orientation: The lesion has a parallel orientation.
+5. Posterior acoustic features: The lesion shows posterior acoustic enhancement.

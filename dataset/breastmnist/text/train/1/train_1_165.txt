@@ -1,0 +1,5 @@
+1. Shape: The lesion has an irregular shape.
+2. Margin: The lesion demonstrates spiculated margins.
+3. Echogenicity: The lesion has a complex echo pattern with solid and cystic components.
+4. Orientation: The lesion has a not parallel (taller-than-wide) orientation.
+5. Posterior acoustic features: The lesion is associated with posterior acoustic shadowing.

@@ -1,0 +1,5 @@
+1. Shape: The lesion demonstrates an irregular shape, composed of multiple small, clustered components.
+2. Margin: The lesion has indistinct margins.
+3. Echogenicity: The lesion exhibits heterogeneous echogenicity, containing multiple small anechoic spaces.
+4. Orientation: The lesion is oriented parallel to the skin surface.
+5. Posterior acoustic features: There are no significant posterior acoustic features.

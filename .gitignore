@@ -23,9 +23,6 @@ checkpoints/
 *.ckpt
 *.safetensors
 
-# Local datasets should be downloaded/prepared separately for anonymous release
-dataset/
-
 # OS/editor noise
 .DS_Store
 .vscode/

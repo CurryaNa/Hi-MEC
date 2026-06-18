@@ -1,0 +1,5 @@
+1. Shape: Irregular shape.
+2. Margin: Spiculated margins.
+3. Echogenicity: Heterogeneous and hypoechoic.
+4. Orientation: Parallel orientation.
+5. Posterior acoustic features: Posterior acoustic shadowing.
